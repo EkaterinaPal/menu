@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Меню ресторана</title>
+    <style>
+        <body> {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+        }
+
+        .logo {
+            font-size: 30px;
+            font-weight: bold;
+            float: left;
+            margin-right: 50px;
+        }
+
+        nav {
+            float: left;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        nav.horizontal {
+            display: flex;
+        }
+
+        nav li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 20px;
+            text-transform: uppercase;
+        }
+
+        .main-content {
+            text-align: center;
+            padding: 50px;
+        }
+
+        .dish {
+            display: inline-block;
+            margin: 20px;
+            text-align: center;
+            vertical-align: top;
+            width: 300px;
+        }
+
+        .dish img {
+            max-width: 100%;
+        }
+
+        .dish h3 {
+            margin-top: 20px;
+            font-size: 24px;
+        }
+
+        .dish p {
+            margin-top: 10px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+</body>
+
+<header class="fixed-header">
+    <div class="logo">Ресторан-бар</div>
+    <nav class="horizontal">
+        <ul>
+            <li><a href="#salads">Салаты</a></li>
+            <li><a href="#hot-dishes">Горячее</a></li>
+            <li><a href="#desserts">Десерты</a></li>
+            <li><a href="#drinks">Карта бара</a></li>
+        </ul>
+    </nav>
+    <div style="clear: both;"></div>
+</header>
+
+</section>
+<style>
+    #menu {
+        background-color: #f5f5f5;
+        padding: 50px 0;
+    }
+
+    .menu-items {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: stretch;
+    }
+
+    .menu-item {
+        margin: 10px;
+        max-width: 700px;
+        text-align: center;
+    }
+
+    .menu-item img {
+        width: 100%;
+        max-height: 900px;
+        object-fit: cover;
+    }
+
+    .menu-item h3 {
+        margin-top: 10px;
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+
+    .menu-item p {
+        margin-top: 5px;
+        font-size: 1em;
+        font-weight: normal;
+    }
+</style>
+<div class="menu-items">
+    <div class="menu-section">
+        <div class="main-content">
+            <h1>Многоуважаемые гости! Вы можете выбрать блюда из меню и показать их официанту.</h1>
+            <img src='backgroundrast.jpg' alt=''/>
+            </section>
+            <style>
+                #menu {
+                    background-color: #f5f5f5;
+                    padding: 50px 0;
+                }
+
+                .menu-items {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    align-items: stretch;
+                }
+
+                .menu-item {
+                    margin: 10px;
+                    max-width: 700px;
+                    text-align: center;
+                }
+
+                .menu-item img {
+                    width: 100%;
+                    max-height: 900px;
+                    object-fit: cover;
+                }
+
+                .menu-item h3 {
+                    margin-top: 10px;
+                    font-size: 1.2em;
+                    font-weight: bold;
+                }
+
+                .menu-item p {
+                    margin-top: 5px;
+                    font-size: 1em;
+                    font-weight: normal;
+                }
+            </style>
+            <div class="menu-items">
+                <div class="menu-section">
+
+                    </style>
+                    <h2 id="salads">Салаты</h2>
+                    <div class="dishes">
+                        <div class="dish">
+                            <img src="chezar.jpg"/>
+                            <h3>Цезарь с курицей</h3>
+                            <p>Цена: 200р</p>
+                        </div>
+                        <div class="dish">
+                            <img src="tartar1.jpg"/>
+                            <h3>Тар тар из говядины</h3>
+                            <p>Цена: 350р</p>
+                        </div>
+                        <h2 id='hot-dishes'>Горячее</h2>
+                        <div class="menu-items">
+                            <div class="menu-item">
+                                <img src="steak.jpg">
+                                <h3>Стейк из говядины</h3>
+                                <p>Цена: 1000р</p>
+                            </div>
+                            <div class="menu-item">
+                                <img src="midii.jpg">
+                                <h3>Мидии в соусе</h3>
+                                <p>Цена: 450р</p>
+                            </div>
+                            <div class="menu-item">
+                                <img src="gadi.jpg">
+                                <h3>Морские гады в соусе карри</h3>
+                                <p>Цена: 380р</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-section">
+                        <h2 id="desserts">Десерты</h2>
+                        <div class="menu-items">
+                            <div class="menu-item">
+                                <img src="cheesecake.jpg">
+                                <h3>Чизкейк</h3>
+                                <p>Цена: 150р</p>
+                            </div>
+                            <div class="menu-item">
+                                <img src="desserthot.jpg">
+                                <h3>Клюква в остром соусе с безе</h3>
+                                <p>Цена: 280р</p>
+                            </div>
+                            <div class="menu-item">
+                                <img src="icecream.jpeg">
+                                <h3>Мороженое</h3>
+                                <p>Цена: 60р</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="menu-section">
+                        <h2 id='drinks'>Карта бара</h2>
+                        <div class="menu-items">
+                            <div class="menu-item">
+                                <img src="lemonade.jpg">
+                                <h3>Лимонад</h3>
+                                <p>Цена: 180р</p>
+                            </div>
+                            <div class="menu-item">
+                                <img src="tea.jpg">
+                                <h3>Чай</h3>
+                                <p>Цена: 280р</p>
+                            </div>
+                            <div class="menu-item">
+                                <img src="milkdrink.jpg">
+                                <h3>Молочный коктейль</h3>
+                                <p>Цена: 210р</p>
+                            </div>
+                            <div class="menu-item">
+                                <img src=".jpeg">
+                                <h3>Мохито</h3>
+                                <p>Цена: 210р</p>
+                            </div>
+                            <div class="menu-item">
+                                <img src="aperol.jpg">
+                                <h3>Апероль</h3>
+                                <p>Цена: 310р</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+                    </html>
